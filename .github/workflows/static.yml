@@ -22,7 +22,7 @@ jobs:
     steps:
       - name: Set up QEMU
         uses: docker/setup-qemu-action@v2
-        
+
       - name: Set up Docker Buildx
         uses: docker/setup-buildx-action@v2
 
@@ -36,6 +36,6 @@ jobs:
         uses: docker/build-push-action@v4
         with:
           push: true
-          tags: kayekaren/appma_page_html:latest
+          tags: karen-kaye/ma_page_html:latest
 
       
